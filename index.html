@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- ------------------Google Font-------------- -->
+    <link href="https://fonts.googleapis.com/css?family=Itim|Berkshire+Swash|Satisfy&display=swap" rel="stylesheet">
+    <!-- ---------------CSS----------------- -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- -------------------fontawesome--------------------- -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- --------------------animation------------------ -->
+    <link rel="stylesheet" href="animate.css">
+    <!-- ------------------------title----------------------- -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Who'll Win ?</title>
+  </head>
+  <body class="wow bounceInDown">
+  	<div class="navigation">
+    	<ul class="nav justify-content-end">
+		  <li class="nav-item">
+		    <a class="nav-link active pr-5 text-warning" href="index.html">PlayGround</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link pr-5 text-light" href="help.html">Help!</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link pr-5 text-light" href="https://ashutoshbisoyi.github.io/personalsite/">About</a>
+		  </li>
+		</ul>
+    </div>
+    <h1 id="header">Who'll Win?</h1>
+    
+   	
+    <div class="container-fluid">
+    	<div class="row">
+    		<!-- <div class="col-md-2">
+    			<img src="images/winner.png" class="winnerimg wow zoomIn" id="winnerimg1">
+    		</div> -->
+    		
+    		<div class="player1div col-md-6 col-6">
+    			<h2 id="player1">Player 1</h2>
+    			<img src="images/dice6.png" id="p1dice" class="diceimage wow slideInRight" data-wow-delay="0.5s">
+    		</div>
+    		<div class="player2div col-md-6 col-6">
+    			<h2 id="player2">Player 2</h2>
+    			<img src="images/dice6.png" id="p2dice" class="diceimage wow slideInLeft" data-wow-delay="0.5s" id="winnerimg2">
+    		</div>
+    		<!-- <div class="col-md-2">
+    			<img src="images/winner.png" class="winnerimg wow zoomIn" id="winnerimg2">
+    		</div> -->
+
+    	</div>
+    </div>
+    <center><button class="btn btn-lg btn-success wow shake" data-wow-delay="0.5s" onclick="suffle()">Shuffle</button></center>
+    <footer>
+    	<p><i class="fas fa-dice mr-2"></i>  © ashutoshbisoyi 2020  <i class="fas fa-dice ml-2"></i></p> 
+    </footer>
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
